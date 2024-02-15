@@ -225,6 +225,7 @@ export const DashboardConatiner = styled.section`
             outline: none;
             background-color: var(--white);
             border-radius: 25px;
+            cursor: pointer;
           }
         }
       }
