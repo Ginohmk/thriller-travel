@@ -11,13 +11,12 @@ import dayjs from 'dayjs';
 import { searchResult, tripValues, userTrips } from './UserDashboard.mockData';
 import { MdChair } from 'react-icons/md';
 import { LazyLoadImage } from 'react-lazy-load-image-component';
+import RangeSlider from '../../components/range-slider/RangeSlider';
 
 const UserDashboard = () => {
   const calendarRef = useRef();
   const [startDate, setStartDate] = useState(new Date());
   const [tripId, setTripId] = useState(1);
-  const [minRange, setMinRange] = useState(0);
-  const [maxRange, setMaxRange] = useState(5000);
   const [ticketValue, setTicketValue] = useState('TICKET OF CLASS');
 
   const [tripValue, setTripValue] = useState({ id: 1, text: 'NON STOP' });
@@ -233,22 +232,7 @@ const UserDashboard = () => {
               <div className="tripSearchResult-details__ticket-tripDetails__tripPriceRange">
                 <p>PRICE</p>
 
-                <div className="tripSearchResult-details__ticket-tripDetails__tripPriceRange-priceRangeCon">
-                  <input
-                    type="range"
-                    value={minRange}
-                    min="0"
-                    max="5000"
-                    onChange={(e) => setMinRange(e.target.value)}
-                  />
-                  <input
-                    type="range"
-                    min="5000"
-                    max="10000"
-                    value={maxRange}
-                    onChange={(e) => setMaxRange(e.target.value)}
-                  />
-                </div>
+                <RangeSlider />
               </div>
             </div>
           </div>

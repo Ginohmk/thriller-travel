@@ -416,14 +416,6 @@ export const DashboardConatiner = styled.section`
             flex-direction: column;
 
             gap: 3rem;
-
-            &-priceRangeCon {
-              background-color: var(--secondary-btn-color);
-              display: flex;
-              input[type='range'] {
-                width: 100%;
-              }
-            }
           }
         }
       }
