@@ -238,7 +238,8 @@ export const DashboardConatiner = styled.section`
         flex: 2;
         background-color: var(--white);
         padding: 2rem 0;
-        max-width: 750px;
+        max-width: 700px;
+        width: 100%;
         border-radius: 35px;
 
         &-item {
@@ -348,6 +349,8 @@ export const DashboardConatiner = styled.section`
         flex: 1;
         border-radius: 35px;
         color: var(--white);
+        display: flex;
+        flex-direction: column;
 
         &-header {
           display: flex;
@@ -363,10 +366,11 @@ export const DashboardConatiner = styled.section`
           max-width: 400px;
           width: 100%;
 
+          align-self: center;
           img {
             width: 100%;
             height: 100%;
-            object-fit: cover;
+            object-fit: contain;
           }
         }
 
