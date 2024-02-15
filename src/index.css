@@ -5,8 +5,10 @@
   --secondary-color: #d6a217;
   --primary-color: #3d5654;
   --semi-primary-color: #425c5a;
+  --light-primary-color: #e1eceb;
   --white: #ffffff;
   --font-color: #425c5a;
+  --secondary-btn-color: #c99c33;
 }
 
 * {
@@ -37,6 +39,10 @@ h2 {
   font-size: clamp(1.8rem, 1vw, 2.5rem);
 }
 
+h3 {
+  font-size: clamp(1.55rem, 1vw, 2rem);
+}
+
 p {
-  font-size: clamp(1.2rem, 1vw, 1.5rem);
+  font-size: clamp(1.26rem, 1vw, 1.5rem);
 }
