@@ -15,6 +15,8 @@ export const DashboardConatiner = styled.section`
     display: flex;
     flex-direction: column;
     gap: 2rem;
+    width: 100%;
+    border: 2px solid red;
 
     .topSection {
       display: flex;

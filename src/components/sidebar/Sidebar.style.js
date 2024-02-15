@@ -57,7 +57,7 @@ export const SidebarContainer = styled.section`
   .sideBarButtom {
     background-color: var(--semi-primary-color);
     width: 100%;
-    height: 100dvh;
+    height: 100vh;
     display: flex;
     flex-direction: column;
     gap: 2.5rem;
