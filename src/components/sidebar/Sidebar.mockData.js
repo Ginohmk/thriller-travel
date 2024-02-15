@@ -55,7 +55,7 @@ export const sideBarLink = [
   },
   {
     id: 1,
-    link: '/statistics',
+    link: '/statistic',
     text: 'Statistics',
     icon: <HiOutlineChartPie />,
   },

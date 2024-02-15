@@ -377,6 +377,7 @@ export const DashboardConatiner = styled.section`
           gap: 4rem;
           background-color: var(--primary-color);
           padding: 3rem 1rem;
+          border-radius: 35px;
 
           &__tripValues {
             display: flex;
