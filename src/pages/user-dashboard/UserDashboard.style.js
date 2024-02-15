@@ -232,7 +232,8 @@ export const DashboardConatiner = styled.section`
     }
 
     &-details {
-      display: flex;
+      display: grid;
+      grid-template-columns: 2fr 1fr;
       gap: 3.5rem;
       width: 100%;
 
@@ -240,7 +241,7 @@ export const DashboardConatiner = styled.section`
         flex: 2;
         background-color: var(--white);
         padding: 2rem 0;
-        max-width: 700px;
+        max-width: 600px;
         width: 100%;
         border-radius: 35px;
 
@@ -353,6 +354,7 @@ export const DashboardConatiner = styled.section`
         color: var(--white);
         display: flex;
         flex-direction: column;
+        padding-top: 3.2rem;
 
         &-header {
           display: flex;
@@ -384,7 +386,9 @@ export const DashboardConatiner = styled.section`
           gap: 4rem;
           background-color: var(--primary-color);
           padding: 3rem 1rem;
-          border-radius: 35px;
+          border-radius: 0 0 35px 35px;
+
+          height: 100%;
 
           &__tripValues {
             display: flex;
