@@ -2,7 +2,7 @@ import styled from 'styled-components';
 
 export const HomeContainer = styled.section`
   display: flex;
-  gap: 4rem;
+  gap: 2rem;
   height: 100vh;
 
   .outLet {
