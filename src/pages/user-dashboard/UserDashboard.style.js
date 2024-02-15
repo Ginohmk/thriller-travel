@@ -5,6 +5,7 @@ export const DashboardConatiner = styled.section`
   flex-direction: column;
 
   gap: 3rem;
+  width: 100%;
 
   .tripSection {
     background-color: var(--white);
