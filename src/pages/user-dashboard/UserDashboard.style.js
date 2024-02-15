@@ -16,7 +16,6 @@ export const DashboardConatiner = styled.section`
     flex-direction: column;
     gap: 2rem;
     width: 100%;
-    border: 2px solid red;
 
     .topSection {
       display: flex;
@@ -96,7 +95,7 @@ export const DashboardConatiner = styled.section`
 
           .react-datepicker-wrapper {
             outline: none;
-            border: 2px solid red;
+
             position: absolute;
             top: 0;
             z-index: 0;
