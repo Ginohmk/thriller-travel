@@ -61,7 +61,7 @@ export const SidebarContainer = styled.section`
     display: flex;
     flex-direction: column;
     gap: 2.5rem;
-    padding-left: 2rem;
+
     padding-bottom: 2.5rem;
 
     &-nav {
@@ -71,6 +71,7 @@ export const SidebarContainer = styled.section`
       width: 100%;
 
       padding-top: 2rem;
+      padding-left: 2rem;
 
       li:has(.active-link) {
         width: calc(100% + 1.5rem);
@@ -87,11 +88,11 @@ export const SidebarContainer = styled.section`
 
         border-radius: 35px;
         width: 100%;
-        border: 2px solid transparent;
+        border: 1px solid transparent;
         cursor: pointer;
 
         &:hover {
-          border: 2px solid var(--bg-color);
+          border: 1px solid var(--bg-color);
         }
 
         a {
@@ -119,7 +120,7 @@ export const SidebarContainer = styled.section`
       flex-direction: column;
       align-items: flex-start;
       gap: 1rem;
-      padding-left: 1rem;
+      padding-left: 3rem;
 
       h3 {
         color: var(--secondary-color);
@@ -169,13 +170,16 @@ export const SidebarContainer = styled.section`
     }
 
     &-worldImg {
-      max-width: 210px;
+      max-width: 350px;
+      width: 100%;
+      height: auto;
       margin-top: -10px;
 
       img {
         width: 100%;
         height: 100%;
-        object-fit: cover;
+        object-fit: contain;
+        border-radius: 0 0 20px 0;
       }
     }
   }
