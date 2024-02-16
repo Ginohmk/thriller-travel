@@ -1,6 +1,6 @@
 # Thriller Travels
 
-This project showcases my Reactjs skills and the vuilding of custom components inother to resuce the size of installed library by build my custom template as the design requires.
+This project showcases my Reactjs skills and the vuilding of custom components inother to resuce the size of installed library by build my custom template as the design requires. With Focus on Desktop view only
 
 ## Live Link
 
