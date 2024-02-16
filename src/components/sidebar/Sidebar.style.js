@@ -57,7 +57,7 @@ export const SidebarContainer = styled.section`
   .sideBarButtom {
     background-color: var(--semi-primary-color);
     width: 100%;
-    height: 100vh;
+    height: 100dvh;
     display: flex;
     flex-direction: column;
     gap: 2.5rem;
@@ -76,6 +76,7 @@ export const SidebarContainer = styled.section`
         width: calc(100% + 1.5rem);
         background-color: var(--bg-color);
         color: var(--font-color);
+        border-radius: 35px 0 0 35px;
       }
 
       li {
@@ -83,21 +84,32 @@ export const SidebarContainer = styled.section`
         display: flex;
         gap: 2rem;
         align-items: center;
-        padding: 0.8rem 1rem;
-        border-radius: 35px;
 
-        /* .active-link {
-          border: 2px solid red;
-        } */
+        border-radius: 35px;
+        width: 100%;
+        border: 2px solid transparent;
+        cursor: pointer;
+
+        &:hover {
+          border: 2px solid var(--bg-color);
+        }
+
+        a {
+          padding: 1.3rem 1rem;
+        }
 
         svg {
           color: var(--secondary-color);
-          width: 35px;
-          height: 35px;
+          min-width: 35px;
+          min-height: 35px;
+          padding-left: 1rem;
         }
+
         a {
           font-size: clamp(1.35rem, 1vw, 2rem);
           text-transform: uppercase;
+          width: 100%;
+          height: 100%;
         }
       }
     }
