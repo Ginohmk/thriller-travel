@@ -8,6 +8,10 @@ This project showcases my Reactjs skills and the vuilding of custom components i
 
 ![thriller-travels](https://github.com/Ginohmk/thriller-travel/assets/58771507/387c0801-566d-47e3-9195-b1e6792430cb)
 
+## Video
+
+[thriller-travels.webm](https://github.com/Ginohmk/thriller-travel/assets/58771507/e26ba91d-76d7-454c-84de-35423a8de13f)
+
 ## Getting Started
 
 ### Installing Dependecies
